@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Trocchi&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <img src="/images/logo.png" alt="" class="logo de alura">
+    </header>
+
+    <main>
+        <section>
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+       <div>
+        <h6 class="informacion">Solo letras minúsculas y sin acento</h6>
+       </div>
+       <div class="botones">
+        <button class="btn-encriptar"    onclick="btnEncriptar()">Encriptar</button>
+        <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+       </div>
+       
+        </section>
+
+        <section>
+            <textarea class="mensaje" cols="20" rows="10"></textarea>
+            
+            <div>
+                <button class="btn-copiar">Copiar</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>Creado por Juan Diego López Castro, en base al curso de Alura LATAM de Oracle ONE</p>
+
+    </footer>
+   <script src="/script.js"></script> 
+</body>
+</html>
